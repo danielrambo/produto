@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Produto</string>
+    <string name="error_email">E-mail inválido!</string>
+    <string name="required">Obrigatório!</string>
+</resources>

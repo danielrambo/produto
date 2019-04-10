@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:textSize">@dimen/forms_edit_text_font_size</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Tema personalizado para a barra de cima do app -->
+    <style name="AppTheme.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textSize">@dimen/app_bar_title_font_actions</item>
+        <item name="android:layout_marginTop">@dimen/app_bar_margin_default</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/app_bar_list_action_height</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- Tema personalizado para a barra de navegação -->
+    <style name="AppTheme.SizeMenu">
+        <item name="android:textSize">@dimen/design_navigation_title_size</item>
+        <item name="android:layout_marginBottom">@dimen/design_navigation_margin_bottom</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay"  parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
